@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --color-dark-blue: #363F5F;
+    --color-white: #FFFFFF;
+    --color-expense: #E92929;
+    --color-income: #12A454;
+    --color-total: #49AA26;
+    --color-darkblue: #363F5F;
+    --color-lightblue: #969CB3;
+    --color-darkgreen: #2D4A22;
+    --color-lightgrey: #F0F2F5;
 }
 
 * {
@@ -11,19 +18,19 @@
 }
 
 body {
-    background-color: #F0F2F5;
+    background-color: var(--color-lightgrey);
     font-family: 'Poppins', sans-serif;
 }
 
 
 header {
-    background-color: #2D4A22;
+    background-color: var(--color-darkgreen);
     padding: 2rem 0 10rem;
     text-align: center;
 }
 
 #logo {
-    color: #FFFFFF;
+    color: var(--color-white);
     font-weight: 100;
 }
 
@@ -39,21 +46,21 @@ header {
 h2 {
     margin-top: 3.2rem;
     margin-bottom: 0.8rem;
-    color: var(--color-dark-blue);
+    color: var(--color-darkblue);
     font-weight: normal;
 }
 
 #balance h2 {
-    color: #FFFFFF;
+    color: var(--color-white);
     margin-top: 0;
 }
 
 .card {
-    background: #FFFFFF;
+    background: var(--color-white);
     margin-bottom: 2rem;
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
-    color: var(--color-dark-blue);
+    color: var(--color-darkblue);
 }
 
 .card h3 {
@@ -68,18 +75,18 @@ h2 {
 }
 
 .card.total {
-    background-color: #49AA26;
-    color: #FFFFFF;
+    background-color: var(--color-total);
+    color: var(--color-white);
 }
 
 #data-table {
     width: 100%;
     border-spacing: 0 0.5rem;
-    color: #969CB3;
+    color: var(--color-lightblue);
 }
 
 table th {
-    background-color: #FFFFFF;
+    background-color: var(--color-white);
     font-weight: normal;
     padding: 1rem 2rem;
     text-align: left;
@@ -99,25 +106,25 @@ table tbody tr td:first-child {
 }
 
 table tbody td {
-    background-color: #FFFFFF;
+    background-color: var(--color-white);
     padding: 1rem 2rem;
 }
 
 td.description {
-    color: var(--color-dark-blue);
+    color: var(--color-darkblue);
 }
 
 td.income {
-    color: #12A454;
+    color: var(--color-income);
 }
 
 td.expense {
-    color: #E92929;
+    color: var(--color-expense);
 }
 
 footer {
     text-align: center;
     padding: 4rem 0 2rem;
-    color: var(--color-dark-blue);
+    color: var(--color-darkblue);
     opacity: 0.6;
 }
