@@ -2,12 +2,12 @@
 
 :root {
     --color-white: #FFFFFF;
-    --color-expense: #E92929;
+    --color-expense: #D3212C;
     --color-income: #12A454;
-    --color-total: #49AA26;
+    --color-total: #069C56;
     --color-darkblue: #363F5F;
     --color-lightblue: #969CB3;
-    --color-darkgreen: #2D4A22;
+    --color-darkgreen: #006B3D;
     --color-lightgreen: #3DD705;
     --color-lightgrey: #F0F2F5;
 }
